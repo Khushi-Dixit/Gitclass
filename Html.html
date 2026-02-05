@@ -120,6 +120,8 @@ ordered list = <ol> attribute type( 1,a,A,I,i)
          Required attributr used to make a fiel completion imp before submission  -->
         Enter email <input type="email" name="" id="">
         Click here to submit <input type="button" value=""><br>
+        <input type="submit" value="login"> 
+        <!-- so that value of buton is also submit -->
         Click here <input type="button" value=""><br>
         Click here <input type="button" value=""><br>
         Click here <input type="button" value="submit">
@@ -152,10 +154,84 @@ ordered list = <ol> attribute type( 1,a,A,I,i)
        </form>
        <!-- <label for=""></label>
        <fieldset><legend></legend></fieldset> change the name of submit button-->
-       <label for="story"></label>
+       <!-- label tag to increase user expaerience so that when u click on label u can start writing in box -->
+       
        <fieldset>
         <legend>hello</legend>
+        <label for="story"></label>
+        <input type="text" id="story">
        </fieldset>
+    
+       <!--<form align="Center" -->
+       <!-- Table
+        tag for tabe: tr (table row) th(table heading) td(table data)-->
+        <!--attribute of table cellpadding content and border ka beech mai space, cellspacing-->
+        <table border="10" align="Center" width="50%" cellpadding="10px"  cellspacing="10px">
+            <!-- 10 represent the width of border
+             
+             width for the area of sccreen u want to cover to not forget percent -->
+            <tr>
+                <!-- th as we want heading -->
+                <th>Sno.</th>
+                <th>name</th>
+                <th>city</th>
+                <th>fees</th>
+            </tr>
+            <tr>
+                <!-- td as we want next row to be data -->
+                 <!-- attribute of td is colspan(merging of 2 or more column),rowspan (merging of 2 0r more row )-->
+                 <td>1</td>
+                 <td>clary</td>
+                 <td colspan="2">Athenes</td>
+                 <!-- <td>50000</td> -->
+            </tr>
+            <tr>
+                <!-- td as we want next row to be data -->
+                 <td>2</td>
+                 <td>Jace</td>
+                 <td>Athenes</td>
+                 <td rowspan="2">50000</td>
+            </tr>
+            <tr>
+                <!-- td as we want next row to be data -->
+                 <td>3</td>
+                 <td>Simon</td>
+                 <td>Athenes</td>
+                 <!-- <td>50000</td> -->
+            </tr>
+            <tr bgcolor="Red">
+                <!-- td as we want next row to be data -->
+                 <td>4</td>
+                <td>Robert</td>
+
+                 <td>Athenes</td>
+                 <td>50000</td>
+            </tr>
+        </table>
+        <!-- The <a> (anchor) tag is used to create hyperlinks in HTML. 
+            href = hyperlink refernce
+            Text blue colous sa appearance  but u must give the link to href so that the text work as link-->
+        <a href="http://127.0.0.1:5500/form.html">Student Registration Form</a>
+        <!-- new tag open : attribute us target="_blank" -->
+         <br>
+         <a href="https://chatgpt.com/c/697c7bf8-1ed8-8323-851c-900b8f459ac9" target="_blank">Gpt</a>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
