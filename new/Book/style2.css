@@ -1,0 +1,44 @@
+h1{
+    color: darkblue;
+    background-color: gold;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 50px;
+    /* text-decoration: line-through; 
+    letter spacing px rem*/
+    /* linethrough is for striking
+    same property cant be used for same tag
+     */
+}
+p{
+    color:lightskyblue;
+    background-color: color-mix(in hsl shorter hue, color percentage, color percentage);
+    text-align: center;
+    font-size: 30px;
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    font-style: flex 1 1 auto;
+    font-weight: 200;
+    word-spacing: 2rem;
+
+
+}
+img{
+    margin-left: 20%;
+
+}
+#Khushi{
+    color: blueviolet;
+    background:wheat;
+    text-align: right;
+}
+/* TOP VALUE OF RGB IS 255 */
+.A1{
+    color: rgb(72, 6, 133);
+    background:rgb(206, 186, 147);
+    text-align: right;
+    font-style: italic;
+
+}
