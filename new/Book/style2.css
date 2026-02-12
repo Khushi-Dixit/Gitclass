@@ -42,3 +42,44 @@ img{
     font-style: italic;
 
 }
+#K{
+    /* padding is space between content and border */
+    font-size: 30px;
+    color: burlywood;
+    background: plum;
+    /* Intead of using three line we do it in one single line
+    border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+    border: 20px dashed brown;
+    /* padding: 10px; */
+    padding-left: 10px;
+    margin: 15px;
+}
+#N{
+    /* text-align: center; */
+    width: 550px;
+    background-color: antiquewhite;
+    color: black;
+    padding-left: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+    border-radius: 40px;
+    border-left: 2px solid red;
+    border-bottom: 2px dashed green;
+    /* height: 20px; */
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    border: 20px solid brown;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    border: 20px solid brown;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px
+}
